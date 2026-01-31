@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.top-left {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.top-right {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    text-align: right;
+    font-size: 13px;
+}
+
+.top-right a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.date {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.paper-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 65px;
+    margin: 0 0 15px 0;
+    font-weight: normal;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.double-line {
+    border: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 2px;
+    margin: 10px 0 20px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    gap: 30px;
+    align-items: start;
+}
+
+.column-left {
+    padding-right: 20px;
+    border-right: 1px solid #e2e2e2;
+}
+
+.column-right {
+    padding-left: 20px;
+    border-left: 1px solid #e2e2e2;
+}
+
+.headline {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: 1.2;
+    color: #000;
+}
+
+.summary {
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.read-time {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #888;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tag {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #e2e2e2;
+    margin: 20px 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.caption-right {
+    text-align: right;
+}
